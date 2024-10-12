@@ -1,5 +1,3 @@
-View Portfolio 
-
 🚀 Technologies Used
 Frontend: React.js, Tailwind CSS
 📂 Features
