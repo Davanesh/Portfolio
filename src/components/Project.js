@@ -1,16 +1,17 @@
 import React from 'react';
-import projectImage1 from '../assets/ecommerce-websites.jpg';
+import projectImage1 from '../assets/real-state.png';
 import projectImage2 from '../assets/food-ecommerce.jpg';
 import projectImage3 from '../assets/website-blog.jpg';
+import projectImage4 from '../assets/app.png'
 
 export default function Project() {
     const projects = [
         { 
             id: 1, 
-            title: "Ecommerce Websites", 
+            title: "Real State Market-Place", 
             imageUrl: projectImage1, 
-            desc: 'An Ecommerce Website built with MERN Stack',
-            link: 'https://github.com/',
+            desc: 'An Real-State market place Website built with MERN Stack',
+            link: 'https://github.com/Davanesh/Real-Estate-Marketplace',
             position: 'up'
         },
         { 
@@ -18,41 +19,25 @@ export default function Project() {
             title: "Food Ecommerce", 
             imageUrl: projectImage2, 
             desc: 'A Food Ecommerce Website built with React',
-            link: 'https://github.com/',
+            link: 'https://github.com/Davanesh',
             position: 'down'
         },
         { 
             id: 3, 
-            title: "Groceries App", 
-            imageUrl: projectImage3, 
+            title: "Groceries Mobile App", 
+            imageUrl: projectImage4, 
             desc: 'A Groceries mobile app with a negotiation function, built with React Native, Node.js, Express.js, MongoDB',
-            link: 'https://github.com/',
+            link: 'https://github.com/Davanesh',
             position: 'up'
         },
         { 
             id: 4, 
-            title: "Another Ecommerce", 
-            imageUrl: projectImage1, 
+            title: "Blog Website", 
+            imageUrl: projectImage3,
             desc: 'Another Ecommerce Website built with MERN Stack',
-            link: 'https://github.com/',
+            link: 'https://github.com/Davanesh',
             position: 'down' 
         },
-        { 
-            id: 5, 
-            title: "Ecommerce Platform", 
-            imageUrl: projectImage2, 
-            desc: 'An Ecommerce Website built with MERN Stack',
-            link: 'https://github.com/',
-            position: 'up'
-        },
-        { 
-            id: 6, 
-            title: "MERN Stack Project", 
-            imageUrl: projectImage3, 
-            desc: 'A Full MERN Stack Ecommerce Website',
-            link: 'https://github.com/',
-            position: 'down'
-        }
     ];
     
     return (
