@@ -1,7 +1,7 @@
 import React from 'react';
 import projectImage1 from '../assets/real-state.png';
-import projectImage2 from '../assets/food-ecommerce.jpg';
-import projectImage3 from '../assets/website-blog.jpg';
+import projectImage2 from '../assets/drive clone.png';
+import projectImage3 from '../assets/doc clone.png';
 import projectImage4 from '../assets/app.png'
 
 export default function Project() {
@@ -10,31 +10,31 @@ export default function Project() {
             id: 1, 
             title: "Real State Market-Place", 
             imageUrl: projectImage1, 
-            desc: 'An Real-State market place Website built with MERN Stack',
+            desc: 'A real estate platform allowing users to browse, buy, and sell properties. It includes property listings, filtering, and user authentication using Firebase, with a backend powered by Node.js and MongoDB for data management.',
             link: 'https://github.com/Davanesh/Real-Estate-Marketplace',
             position: 'up'
         },
         { 
             id: 2, 
-            title: "Food Ecommerce", 
+            title: "Full Stack Google Drive Clone", 
             imageUrl: projectImage2, 
-            desc: 'A Food Ecommerce Website built with React',
-            link: 'https://github.com/Davanesh',
+            desc: 'A full-stack Google Drive clone built with Next.js and Node.js, featuring secure file upload, storage, and sharing. It includes OTP-based authentication and email-based file sharing. The project demonstrates full-stack development, real-time functionality, and integration with Appwrite for storage.',
+            link: 'https://github.com/Davanesh/CloudNest',
             position: 'down'
         },
         { 
             id: 3, 
             title: "Groceries Mobile App", 
             imageUrl: projectImage4, 
-            desc: 'A Groceries mobile app with a negotiation function, built with React Native, Node.js, Express.js, MongoDB',
+            desc: 'A mobile app for buying groceries directly from farmers, featuring a negotiation system for bulk, frequent, and product-based purchases. It includes user authentication with Firebase and offers real-time chat and market trend insights powered by an AI chatbot.',
             link: 'https://github.com/Davanesh',
             position: 'up'
         },
         { 
             id: 4, 
-            title: "Blog Website", 
+            title: "Real-Time Google Docs Clone", 
             imageUrl: projectImage3,
-            desc: 'Another Ecommerce Website built with MERN Stack',
+            desc: 'AnoA real-time Google Docs clone that enables live collaboration and messaging. Built with Next.js and React, it features real-time document editing, messaging, and notifications, demonstrating advanced full-stack development skills.',
             link: 'https://github.com/Davanesh',
             position: 'down' 
         },

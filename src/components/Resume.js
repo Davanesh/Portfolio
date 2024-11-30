@@ -1,6 +1,6 @@
 import React from 'react';
 import bg2 from '../assets/Untitled Project2.jpg';
-import resumepdf from '../assets/Resume.pdf'
+import resumepdf from '../assets/Davanesh_Resume.pdf'
 
 export default function Resume() {
   return (
